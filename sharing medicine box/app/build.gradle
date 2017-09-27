@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.0'
+
+    defaultConfig {
+        applicationId "com.matrixxun.producttour"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile files('libs/AMap3DMap_5.2.1_AMapNavi_5.2.1_AMapSearch_5.2.1_AMapLocation_3.4.1_20170710.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+}

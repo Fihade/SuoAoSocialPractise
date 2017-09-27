@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProductTour</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_product_tour">product tour</string>
+
+    <string name="welcom_head_01">GPS定位</string>
+    <string name="welcom_content_01">通过手机可以对共享药箱进行定位以致于方便用户找到药箱进行有效地治疗和实施措施</string>
+    <string name="welcom_head_02">蓝牙连接</string>
+    <string name="welcom_content_02">通过蓝牙实现手机与药箱进行连接从而通过终端进行取药，有利于方便处理紧急情况</string>
+    <string name="welcom_head_03">智能取药</string>
+    <string name="welcom_content_03">用户可以通过药箱进行取药实现快捷方便的取药，保证了紧急救助的实时性</string>
+    <string name="welcom_head_04">健康知识</string>
+    <string name="welcom_content_04">用户可以通过APP来了解一些急救知识从而在面对急救突发情况时能够从容面对，实施紧急救治</string>
+    <string name="tv50">用户名：</string>
+    <string name="tv51">密  码：</string>
+    <string name="bt2">注册</string>
+    <string name="tv70">SIGN UP</string>
+    <string name="tv80">powered by SuoAo</string>
+    <string name="et50">请输入用户名（字母、数字均可）</string>
+    <string name="et51">请输入密码（字母、数字均可）</string>
+</resources>
